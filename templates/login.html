@@ -8,4 +8,8 @@
     <button type='submit'>Login</button>
 </form>
 
+{% if invalid %}
+{{ invalid }}
+{% endif %}
+
 {% endblock content %}
